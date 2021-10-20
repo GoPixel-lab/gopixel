@@ -543,34 +543,7 @@ a:not(.how) {
     }
 }
 
-/* 头 */
-.cmnnav_pc{
-    max-width: 1400px;
-    margin: auto;
-  
-  }
-  .nav_pc{
-    border: 1px solid #000;
-  }
-  .nav_pc li{
-    display: inline-block;
-    width: 182px;
-    height: 82px;
-    line-height: 82px;
-    border-left: 1px solid #000;
-  }
- 
-  .leading_box {
-    height: 380px;
-    font-size: 30px;
-    width: 1400px;
-  
-  }
-  
-.home{
-    max-width: 1400px;
-    margin: auto;
-}
+
 a:hover{
     text-decoration: none;
 }

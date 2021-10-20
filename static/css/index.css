@@ -173,9 +173,8 @@
     border-top: 1px solid #000;
     position: relative;
     float: left;
-    padding: 60px 40px;
-    font-size: 20px;
-    padding-right: 75px;
+    padding:50px 40px;
+    padding-right: 70px;
     overflow: hidden;
 }
 
@@ -189,15 +188,18 @@
 
 .index_list li p {
     font-weight: 700;
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 20px;
+    height: 74px;
+    line-height: 34px;
 }
 
 .index_list li span {
     color: #000;
     line-height: 40px;
     font-family: initial;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 300;
 }
 
 .index_list li:nth-child(10),
@@ -206,14 +208,9 @@
     padding: 0px;
     border-bottom: 1px solid #000;
 }
-.index_list li:nth-child(10) img,
-.index_list li:nth-child(11) img,
-.index_list li:nth-child(12)  img{
-    max-width: none;
-}
 .index_list li .font_0 {
     width: 100%;
-    display: inline-block;
+    display: block;
     height: 100px;
     background-color: #fff;
     position: absolute;
@@ -382,7 +379,9 @@ a:hover {
 .menu_list li a {
     border-bottom: 1px solid #000;
 }
-
+.index_list li img{
+    width: 100%;
+}
 @media (max-width: 1024px) {
     .home {
         min-width: 100%;
@@ -454,7 +453,7 @@ a:hover {
     }
 
     .leading_box p span::after {
-        top: 50px;
+        top: 63px;
     }
 
     .nav_box {
@@ -472,15 +471,15 @@ a:hover {
     .nav_box .p_02 {
         top: 8px;
         position: absolute;
-        right: 0;
+        right: 56px;
         padding-right: 20px;
         padding-left: 10px;
     }
 
     .nav_box .p_03 {
-        bottom: 32px;
+        bottom: 54px;
         position: absolute;
-        left: 41%;
+        left: 40%;
         padding-left: 10px;
         padding-right: 20px;
     }
@@ -515,8 +514,9 @@ a:hover {
     .index_list li p {
         font-size: 20px;
         line-height: 30px;
+        height: 36px;
     }
-
+   
     .index_list li span {
         font-size: 16px;
         line-height: 30px;
@@ -558,8 +558,8 @@ a:hover {
     }
 
     .nav_box .p_03 {
-        bottom: 7px;
-        left: 38%;
+        bottom: 30px;
+        left: 41%;
     }
 
     .nav_box .p_02 {
