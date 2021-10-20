@@ -62,7 +62,7 @@ body {
 
 img {
     vertical-align: top;
-    width: 100%;
+    /* width: 100%; */
     max-width: 100%;
     height: auto
 }
@@ -559,20 +559,14 @@ a:not(.how) {
     line-height: 82px;
     border-left: 1px solid #000;
   }
-  .nav_pc li a{
-    text-decoration:underline;
-  }
+ 
   .leading_box {
     height: 380px;
     font-size: 30px;
     width: 1400px;
   
   }
-  .leading_box p{
-    font-weight: bold;
-    border-bottom: 1px solid #000;
-  }
-
+  
 .home{
     max-width: 1400px;
     margin: auto;
