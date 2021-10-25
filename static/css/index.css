@@ -53,7 +53,6 @@
     font-size: 42px;
     line-height: 42px;
     margin: auto;
-    transition: all 1s;
 }
 .leading_box p span {
     /* border-bottom: 2px solid #000; */
